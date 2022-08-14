@@ -1,0 +1,20 @@
+
+*{
+    width: 100%;
+    height: calc(100vh - 70px);
+    scroll-snap-align: star;
+}
+.app{
+    height: 100vh;
+
+}    
+
+.sections{
+    width: 100%;
+    height: calc(100vh - 70px);       
+    background-color: rgb(185, 144, 238); 
+    position: relative;
+    top: 70px;
+    scroll-snap-type:  y mandatory;
+
+}
